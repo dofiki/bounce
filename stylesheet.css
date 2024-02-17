@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.textBox{
+    border: 1px dashed black;
+    padding: 0.5rem;
+}
+
+.textBox:focus{
+    outline: none;
+}
